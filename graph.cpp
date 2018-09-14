@@ -114,7 +114,7 @@ template <class V,class E> struct Graph
             if(nr < 0) g[v].t = -(--nr)-3; // NUMER SIE ZMNIEJSZA CALY CZAS CZYLI CALY CZAS < 0 TO TYLKO 1 FAZA ALGORYTMU
         }
     }
-    // ta funkcja tylko wyznacza numery silnie spojnych skladowych w grafie
+    // tylko wyznacza numery silnie spojnych skladowych w grafie
     void SccS()
     {
         Graph<V,E> gt(SIZE(g));
